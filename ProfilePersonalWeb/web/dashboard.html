@@ -138,37 +138,18 @@
     </div>
 
     <form action="ProfileServlet" method="POST">
-        <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="E.g. Khair Bahar" required>
-        </div>
-
-        <div class="form-group">
-            <label for="studentId">Student ID</label>
-            <input type="text" id="studentId" name="studentId" placeholder="E.g. 2026884122" required>
-        </div>
-
-        <div class="form-group">
-            <label for="program">Academic Program</label>
-            <input type="text" id="program" name="program" placeholder="E.g. CS230 - Bachelor of Computer Science" required>
-        </div>
-
-        <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="E.g. student@student.uitm.edu.my" required>
-        </div>
-
-        <div class="form-group">
-            <label for="hobbies">Hobbies & Passions</label>
-            <input type="text" id="hobbies" name="hobbies" placeholder="E.g. Hacking " required>
-        </div>
-
-        <div class="form-group">
-            <label for="bio">Short Self-Introduction</label>
-            <textarea id="bio" name="bio" placeholder="Tell the world a piece of your story..." required></textarea>
-        </div>
-
-        <button type="submit" class="btn-submit">Generate Personal Profile</button>
+       <div class="container-fluid d-flex justify-content-center">
+    <div class="glass-card" style="max-width: 600px; width: 100%;">
+        <h2 class="h4 mb-4 fw-bold">Register Student</h2>
+        <form action="ProfileServlet" method="POST">
+            <div class="mb-3">
+                <label class="form-label small text-muted">Full Name</label>
+                <input type="text" name="name" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 mt-3">Create Profile</button>
+        </form>
+    </div>
+</div>
     </form>
 </div>
 
