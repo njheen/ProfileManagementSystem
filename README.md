@@ -17,5 +17,6 @@ List of Implemented Features :
 - edit saved student profile
 - delete saved student profile
 - filter saved student profile record based on program
-- interactive and appealing userinterface design
+- interactive and appealing user-interface design
+
 Screenshots of the System
