@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu - Student Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            /* Rich purple gradient background */
+            background: linear-gradient(135deg, #2a114b 0%, #4a1c40 50%, #682145 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(15px);
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .menu-header {
+            background: linear-gradient(135deg, #4a1c40, #682145);
+            color: white;
+            padding: 40px 20px;
+            border-bottom: 5px solid #f1c40f; /* Gold accent */
+        }
+
+        .menu-header h1 {
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+        .menu-header p {
+            color: #f8d486;
+            margin: 0;
+            font-size: 15px;
+        }
+
+        .menu-body {
+            padding: 40px 30px;
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 16px 20px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            margin-bottom: 15px;
+        }
+
+        .btn-register {
+            background-color: #682145;
+            color: white;
+            border: 2px solid transparent;
+        }
+
+        .btn-register:hover {
+            background-color: transparent;
+            color: #682145;
+            border-color: #682145;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(104, 33, 69, 0.2);
+        }
+
+        .btn-view {
+            background-color: #f1c40f;
+            color: #2a114b;
+            border: 2px solid transparent;
+        }
+
+        .btn-view:hover {
+            background-color: transparent;
+            color: #b5920b;
+            border-color: #f1c40f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(241, 196, 15, 0.2);
+        }
+
+        .action-btn i {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glass-card">
+        <div class="menu-header">
+            <h1>Student Hub</h1>
+            <p>Profile Management System</p>
+        </div>
+        
+        <div class="menu-body">
+            <a href="index.html" class="action-btn btn-register">
+                <i class="fas fa-user-plus"></i> Register New Profile
+            </a>
+            
+            <a href="ProfileServlet?action=view" class="action-btn btn-view">
+                <i class="fas fa-users"></i> View Registered Profiles
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
