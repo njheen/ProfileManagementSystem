@@ -33,7 +33,7 @@ Screenshots of the System
 4. list of saved student profile information page:
 <img width="1717" height="900" alt="image" src="https://github.com/user-attachments/assets/dfc03b30-6e92-4b66-b682-1ca3d6fd1256" />
 5. student profile edit page
-<img width="1005" height="931" alt="image" src="https://github.com/user-attachments/assets/f8d251c5-489d-47a5-b9fe-69335e8f0fda" />
+<img width="903" height="907" alt="image" src="https://github.com/user-attachments/assets/35354a1e-ba9e-4df3-b553-45ee56efe217" />
 6. search result for student id
 <img width="1590" height="661" alt="image" src="https://github.com/user-attachments/assets/3dc7c86b-dfa9-4470-b661-598a09d35e46" />
 7. search result for student program filter
