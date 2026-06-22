@@ -115,7 +115,6 @@ body {
     padding-top: 25px;
 }
 
-/* Bright informational data blocks */
 .info-row {
     display: flex;
     align-items: center;
@@ -182,7 +181,6 @@ body {
     font-weight: 700;
 }
 
-/* Callout container box style rule override */
 .bio-section p {
     margin: 0;
     font-size: 15px;

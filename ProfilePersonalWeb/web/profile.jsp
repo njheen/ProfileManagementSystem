@@ -13,7 +13,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/all.min.css" rel="stylesheet">
     
 <style>
-    /* 1. Global Background */
     body {
         background: linear-gradient(135deg, #2a114b 0%, #4a1c40 50%, #682145 100%) !important;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,7 +24,6 @@
         padding: 40px 15px;
     }
 
-    /* 2. Overriding the existing Card */
     .card {
         background: rgba(255, 255, 255, 0.96) !important;
         backdrop-filter: blur(20px);
@@ -36,7 +34,6 @@
         border: none !important;
     }
 
-    /* 3. Header Styling */
     .card-header {
         background: linear-gradient(135deg, #4a1c40, #682145) !important;
         color: white !important;
@@ -45,7 +42,6 @@
         border-bottom: 5px solid #f1c40f !important;
     }
 
-    /* 4. Table Styling within the card */
     .table {
         margin-bottom: 0 !important;
         color: #2a114b;
@@ -59,7 +55,6 @@
         border-right: 1px solid #e1e5eb;
     }
 
-    /* 5. Footer / Button Cleanup */
     .card-footer {
         background: white !important;
         border-top: none !important;
@@ -76,7 +71,7 @@
         transform: translateY(-2px);
     }
     
-    /* Responsive adjustment for small screens */
+    
     @media (max-width: 576px) {
         .table th { width: 40%; }
     }

@@ -2,10 +2,8 @@ package model;
 
 import java.io.Serializable;
 
-// Wajib implement Serializable untuk standard JavaBean
 public class ProfileBean implements Serializable {
     
-    // 1. Atribut Private (Sistem Encapsulation)
     private String studentID;
     private String name;
     private String programme;
@@ -13,12 +11,10 @@ public class ProfileBean implements Serializable {
     private String hobbies;
     private String introduction;
 
-    // 2. No-argument Constructor (Wajib untuk JavaBean)
     public ProfileBean() {
     }
 
-    // 3. Public Getter & Setter Methods
-    // Digunakan oleh Servlet dan JSP untuk baca & tulis data
+
     
     public String getStudentID() {
         return studentID;

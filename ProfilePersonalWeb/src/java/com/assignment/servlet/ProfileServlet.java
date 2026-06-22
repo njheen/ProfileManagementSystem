@@ -12,7 +12,7 @@ import javax.servlet.http.*;
 @WebServlet("/ProfileServlet")
 public class ProfileServlet extends HttpServlet {
     
-    // Konfigurasi pangkalan data standard APP/APP
+    // database connection
     private final String dbURL = "jdbc:derby://localhost:1527/StudentProfilesDB;create=true";
     private final String dbUser = "APP"; 
     private final String dbPass = "APP"; 
@@ -106,7 +106,7 @@ public class ProfileServlet extends HttpServlet {
         }
     }
 
-    // --- FUNGSI OPERASI DATABASE (CRUD) ---
+    // database crud func
 
     private void saveProfile(ProfileBean profile) throws Exception {
         String sql = "INSERT INTO APP.Profile (studentID, name, programme, email, hobbies, introduction) VALUES (?, ?, ?, ?, ?, ?)";
